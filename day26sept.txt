@@ -1,0 +1,135 @@
+class nano
+{
+	public static void main(String...arg)
+	{/*
+	String a="xyz";
+	int y=Integer.parseInt(a);
+	*/
+	int a=13;
+	try{
+		if (a<18)
+		{
+			throw new ArithmeticException("Age is less than 18");
+		}
+	}
+	catch (ArithmeticException bunty)
+	{
+			System.out.println(bunty);
+	}
+	System.out.println("gnkc");
+	}
+	/*
+	public static void main(String...arg)
+	{
+		int a[]={1,2,3};
+		try
+		{
+			int b=1/0;
+			a[4]=4;
+
+		}
+		/*
+		catch(IndexOutOfBoundsException e)
+		{
+			System.out.println(e);
+			
+			System.out.println("more than give index used");
+			
+		}
+		catch(ArithmeticException d)
+		{
+			System.out.println("0 can not devide any number");
+		}
+		
+		finally
+		{
+			System.out.println("hellow world");
+		}
+		System.out.println("there is no exception");
+		
+		String a=null;
+		System.out.println(a.length());
+		
+	}
+	*/
+}
+
+
+/////////////////////////
+class nano1
+{	
+	void x() throws ArithmeticException
+	{
+		int a=1/0;
+	}
+	
+	/*
+	public static void main(String...arg)
+	{
+	String a="xyz";
+	int y=Integer.parseInt(a);
+
+	int a=13;
+	try{
+		if (a<18)
+		{
+			throw new ArithmeticException("Age is less than 18");
+		}
+	}
+	catch (ArithmeticException bunty)
+	{
+			System.out.println(bunty);
+	}
+	System.out.println("gnkc");
+	}*/
+	/*
+	public static void main(String...arg)
+	{
+		int a[]={1,2,3};
+		try
+		{
+			int b=1/0;
+			a[4]=4;
+
+		}
+		/*
+		catch(IndexOutOfBoundsException e)
+		{
+			System.out.println(e);
+			
+			System.out.println("more than give index used");
+			
+		}
+		catch(ArithmeticException d)
+		{
+			System.out.println("0 can not devide any number");
+		}
+		
+		finally
+		{
+			System.out.println("hellow world");
+		}
+		System.out.println("there is no exception");
+		
+		String a=null;
+		System.out.println(a.length());
+		
+	}
+	*/
+	
+}
+class nano
+{
+	public static void main(String...args)
+	{
+		nano1 obj = new nano1();
+		try
+		{
+			obj.x();
+		}
+		catch(ArithmeticException f)
+		{
+			System.out.println(f);
+		}
+	}
+}
